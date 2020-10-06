@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -82,7 +82,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Max Robins<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -99,12 +99,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Info</a>
+                </li>
             </ul>
         </div>
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Max!</h4>
         </div>
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
@@ -141,6 +144,9 @@
             </div>
             <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
+            </div>
+            <div class="col">
+                <a href="#info"><button type="button" class="btn btn-outline">Info</button></a>
             </div>
         </div>
         <div class="row mt-5 next">
@@ -233,34 +239,84 @@
             <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
-                    data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
-                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
-                    data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+            <a href="mailto:johndoe@gmail.com" class="col mx-3">
+                <i class="fas fa-envelope-square"
+                   data-toggle="tooltip" data-placement="top" title="Email"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3">
+                <i class="fab fa-linkedin"
+                   data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+            </a>
+            <a href="https://github.com/johndoe" class="col mx-3">
+                <i class="fab fa-github-square"
+                   data-toggle="tooltip" data-placement="top" title="Github"></i>
+            </a>
 
         </div>
-        <div class="row mt-5">
-            <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
+
+        <div class="container landing d-flex justify-content-center flex-column align-items-center" id="info">
+            <div class="row mx-auto">
+                <h4 class="display-4 font-weight-bold mx-auto text-center">Information About Me</h4>
+            </div>
+            <div class="row mx-auto mb-4">
+                <h5 class="display-5 mx-auto faded text-center">Im very Interesting</h5>
+            </div>
+            <div class="row w-100 mb-4">
+                <p class="text-justify text-success">
+                    My name is Max Robins. I am an IST student at Temple University. I am a Philly fan and I enjoy movies.
+                    I am graduating in May of 2021. In this project I created a new section, Info.
+                    I added my own fonts, changed the colors to red and green and underlined the bottom.
+                    This paragraph has some personal things about me. My bootstrap componenets are alerts and media objects.
+                    The utility class has been used throughout.
+                </p>
+            </div>
+            <div class="row w-100 mb-4">
+                <p class="text-justify text-danger">
+                    <u>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
+                        in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
+                        sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
+                        tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
+                        purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
+                        faucibus libero.
+                    </u>
+                </p>
+            </div>
+            <div class="alert alert-primary" role="alert">
+                This is a primary alert
+            </div>
+            <div class="alert alert-secondary" role="alert">
+                This is a secondary alert
+            </div>
+            <div class="media">
+                <img class="w-25 h-25 p-5" src="images/newHeadshot.jpg" />
+                <div class="media-body">
+                    <h5 class="mt-0">Media Object Header</h5>
+                    This is my second Bootstrap Compenent. It is also a horrible
+                    picture of me.
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
+            <div class="row mt-5">
+                <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
+            </div>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
 </body>
 
 </html>
